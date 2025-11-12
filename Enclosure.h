@@ -21,6 +21,8 @@ class Enclosure{
     void setCapacity(int cap);
     int getCurrentCount();
     void setCurrentCount(int curr);
+    void addAnimal(Animal* a);
+    void displayAnimals();
 };
 
 #endif
