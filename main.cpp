@@ -147,6 +147,11 @@ void displayInfo(){
 
 int main()
 {
+    Enclosure E1(animal, 50, 20);
+    Mammal M1("Mammal", 4, true, "Red");
+    Bird B1("tweety", 1, false, "yellow");
+    Reptile R1("cody", 3, true, "brown");
+ 
  
 
     return 0;
