@@ -14,7 +14,7 @@ class Reptile : public Animal{
     Reptile(string n, int a, bool i, bool v);
     ~Reptile();
     bool getIsVenomous();
-    void setIsVenomous();
+    void setIsVenomous(bool v);
 };
 
 #endif
